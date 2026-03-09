@@ -1,0 +1,22 @@
+{
+  "name": "certpeek",
+  "version": "1.0.0",
+  "description": "CLI tool to inspect TLS certificate details, expiry status, fingerprint, and SAN names for a domain",
+  "main": "certpeek.js",
+  "bin": {
+    "certpeek": "./certpeek.js"
+  },
+  "scripts": {
+    "start": "node certpeek.js"
+  },
+  "keywords": [
+    "tls",
+    "ssl",
+    "certificate",
+    "security",
+    "cli",
+    "nodejs"
+  ],
+  "author": "ExVoider",
+  "license": "MIT"
+}
